@@ -1,0 +1,12 @@
+name: p53_analysis
+channels:
+  - conda-forge
+  - defaults
+  - anaconda
+dependencies:
+  - python=3.8.18
+  - numpy=1.24.3
+  - pandas=2.0.3
+  - scikit-learn=1.0.2
+  - xgboost=1.4.2
+
