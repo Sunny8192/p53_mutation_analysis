@@ -141,6 +141,7 @@ def run_train_test(train_csv, test_csv, algorithm):
 
 # ExpAssay
 
+# uncomment the following block to generate results 
 """# 1. data splitting
 exp_train_csv = os.path.join(script_path, "ExpAssay", "expassay_train.csv")
 exp_blind_csv = os.path.join(script_path, "ExpAssay", "expassay_blind.csv")
@@ -161,6 +162,7 @@ print("\n" + "---" * 10 + "\n")
 
 # noExpAssay
 
+# uncomment the following block to generate results 
 """# 1. data splitting
 noexp_train_csv = os.path.join(script_path, "noExpAssay", "noexpassay_train.csv")
 noexp_blind_csv = os.path.join(script_path, "noExpAssay", "noexpassay_blind.csv")
